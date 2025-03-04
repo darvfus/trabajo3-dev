@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conteo de Frutas</title>
+    <title>Seguimiento de Libros</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="libros.html">Libros</a></li>
-            <li><a href="#">Mis Libros</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Acerca de</a></li>
         </ul>
     </nav>
     <div class="container">
-        <h1>Conteo de Frutas</h1>
-        <div id="resultado-for"></div>
-        <div id="resultado-while"></div>
+        <h1>Seguimiento de Libros</h1>
+        <input type="text" id="titulo" placeholder="Ingresa el título del libro">
+        <button id="agregar">Agregar Libro</button>
+        <ul id="lista-libros"></ul>
     </div>
+    <script src="libros.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

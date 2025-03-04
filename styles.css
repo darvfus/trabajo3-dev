@@ -4,7 +4,35 @@ body {
     text-align: center;
     padding: 20px;
 }
+/* Estilos del menú */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
 .container {
     background: white;
     padding: 20px;
@@ -20,4 +48,32 @@ h1, h2 {
 p {
     font-size: 18px;
     margin: 5px 0;
+}
+nput, button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ddd;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
