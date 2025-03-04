@@ -3,11 +3,14 @@ body {
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
+
 /* Estilos del menú */
 nav {
-    background-color: #333;
+    background-color: #49d88c;
     padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -23,22 +26,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(100, 67, 219);
     text-decoration: none;
     font-size: 18px;
     padding: 8px 15px;
     border-radius: 5px;
+    transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #3dca28;
 }
+
 .container {
-    background: white;
+    background: rgb(66, 66, 211);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 h1, h2 {
@@ -47,12 +55,16 @@ h1, h2 {
 
 p {
     font-size: 18px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
-nput, button {
+
+input, button {
     margin-top: 10px;
     padding: 10px;
-    width: 80%;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
 }
 
 button {
@@ -60,6 +72,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    transition: background 0.3s;
 }
 
 button:hover {
@@ -69,11 +82,12 @@ button:hover {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 20px 0;
 }
 
 li {
     background: #ddd;
-    margin: 5px;
+    margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
 }
